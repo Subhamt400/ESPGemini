@@ -4,11 +4,11 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi Configuration
-const char* ssid = "OnePlus 5G";               // Replace with your Wi-Fi SSID
-const char* password = "e6h5jthc";       // Replace with your Wi-Fi Password
+const char* ssid = "ssid";               // Replace with your Wi-Fi SSID
+const char* password = "password";       // Replace with your Wi-Fi Password
 
 // OpenAI Gemini API Configuration
-const char* Gemini_Token = "AIzaSyCr5dLoC01T9wq6o6BbgXBfZrDD7ufkznc";          // Replace with your API key
+const char* Gemini_Token = "your-api-key";          // Replace with your API key
 const char* Gemini_Max_Tokens = "400";              // Maximum tokens for the response
 
 String res = "";
